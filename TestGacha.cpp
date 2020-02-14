@@ -11,13 +11,14 @@ using namespace std;
 int main()
    
    int LR,UR,SSR,SR,R,Balance,Cost,Value,Summon_num;
+   Summon_num = 1; //Just to make sure the number of summon equal 10. 
    LR = 100;//(1% Change of Getting a LR Monster Card.) 
    UR = 95; //(5% Change of Getting a UR Monster Card.) 
    SSR =85; //(10% Change of Getting a SSR Monster Card.)
    SR = 67; //(18% Change of Getting a SR Monster Card.)
    R = 42;//(25% Change of Getting a R Monster Card.)            
  //int N = 1 (59% Change of Getting a Normal Monster Card.) ~ Not needed because of else
-   Summon_num = 1;
+   
    
    cout <<"Welcome to Monster Card Gacha" << endl;
 
